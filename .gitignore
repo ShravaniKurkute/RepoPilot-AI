@@ -1,0 +1,68 @@
+# RepoPilot AI — Git Ignore Rules
+
+# Environments & Secret Files
+.env
+.env.local
+.env.*.local
+*.env
+*.env.*
+backend/.env
+frontend/.env
+!*.env.example
+!backend/.env.example
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+.npm/
+.yarn/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# Editor & OS Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sandbox & Temporary Workspace
+workspace_storage/
+backend/workspace_storage/
+temp/
+*.log
+

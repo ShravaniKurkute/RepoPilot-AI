@@ -1,0 +1,21 @@
+# Backend Environment & Secret Files
+.env
+.env.*
+*.env
+*.env.*
+!*.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Workspace Storage & Logs
+workspace_storage/
+*.log
+
